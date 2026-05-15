@@ -11,11 +11,13 @@ sources:
   - "sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md"
   - "sources/papers/arXiv-2605.11594-PointForward-Feedforward-Driving-Reconstruction-through-Point-Aligned-Representations.md"
   - "sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM.md"
+  - "sources/papers/arXiv-2603.17571-PanoVGGT-Feed-Forward-3D-Reconstruction-from-Panoramic-Imagery.md"
   - "sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md"
   - "sources/projects/gsplat/gsplat.md"
   - "sources/projects/SplatAD/SplatAD.md"
   - "sources/projects/3DGRUT/3DGRUT.md"
   - "sources/projects/DGGT/DGGT.md"
+  - "sources/projects/PanoVGGT/PanoVGGT.md"
 ---
 
 # Wiki Index
@@ -38,6 +40,7 @@ sources:
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/PointForward|PointForward]] — point-aligned feedforward driving reconstruction with scene-graph dynamics.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/SwiftVGGT|SwiftVGGT]] — training-free acceleration strategy for VGGT-based kilometer-scale dense reconstruction.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT|OVGGT]] — fixed-budget streaming extension for VGGT-style long-horizon 3D reconstruction.
+- [[Simulation Technologies for Autonomous Driving/Neural Rendering/PanoVGGT|PanoVGGT]] — panoramic feed-forward reconstruction with spherical geometry adaptation and PanoCity dataset contribution.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/gsplat|gsplat]] — infrastructure library node for efficient Gaussian rasterization.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/Method Comparison|Method Comparison]] — side-by-side comparison of currently imported methods and tradeoffs.
 

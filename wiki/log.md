@@ -55,4 +55,9 @@
 - Created `.github/instructions/project-structure.instructions.md` to codify the convention.
 - Updated all cross-references in wiki and paper source files.
 
-
+## [2026-05-15 15:01] ingest+wiki-update | PanoVGGT
+- Added paper summary: `sources/papers/arXiv-2603.17571-PanoVGGT-Feed-Forward-3D-Reconstruction-from-Panoramic-Imagery.md`.
+- Added project summary: `sources/projects/PanoVGGT/PanoVGGT.md` (with `execution/` scaffold).
+- Added bidirectional links between paper and project metadata (`related_project` / `related_papers`).
+- Added method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/PanoVGGT.md`.
+- Merged PanoVGGT into: `Neural Rendering.md`, `Method Comparison.md`, `Simulation Technologies for Autonomous Driving.md`, and `Index.md`.

@@ -11,11 +11,13 @@ sources:
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
   - "sources/papers/arXiv-2605.11594-PointForward-Feedforward-Driving-Reconstruction-through-Point-Aligned-Representations.md"
   - "sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM.md"
+  - "sources/papers/arXiv-2603.17571-PanoVGGT-Feed-Forward-3D-Reconstruction-from-Panoramic-Imagery.md"
   - "sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md"
   - "sources/projects/gsplat/gsplat.md"
   - "sources/projects/SplatAD/SplatAD.md"
   - "sources/projects/3DGRUT/3DGRUT.md"
   - "sources/projects/DGGT/DGGT.md"
+  - "sources/projects/PanoVGGT/PanoVGGT.md"
 ---
 
 # Method Comparison
@@ -36,6 +38,7 @@ This page summarizes method-level tradeoffs across currently imported neural-ren
 | PointForward | Point-aligned feedforward driving reconstruction | Camera input (with 3D bbox) | Sparse world-space queries + spatial-temporal fusion + scene-graph dynamics | SOTA feedforward quality, multi-view consistent |
 | SwiftVGGT | Large-scene dense reconstruction acceleration | Camera | Training-free pipeline speedup (non-iterative Sim(3), no external VPR) | Strong runtime reduction for kilometer-scale scenes |
 | OVGGT | Long-horizon streaming geometry reconstruction | Camera/video stream | Training-free fixed-budget caching (SSC) + anchor-preserving eviction (DAP) | Constant-VRAM, constant-cost streaming focus |
+| PanoVGGT | Panoramic feed-forward reconstruction | Panoramic camera | Permutation-equivariant transformer + spherical-aware embedding + SO(3) augmentation + stochastic anchoring | Strong panoramic geometric robustness with joint pose-depth-point outputs |
 | WorldForge | Controlled 3D/4D generation from video priors | Camera/video generation | Inference-time control stack (IRR/FLF/DSG) | No retraining, plug-and-play control |
 | gsplat | Engineering backend | Infrastructure | CUDA Gaussian rasterization library | Throughput/memory-oriented infrastructure |
 
@@ -45,6 +48,7 @@ This page summarizes method-level tradeoffs across currently imported neural-ren
 - Choose **PointForward** when multi-view consistency and instance-level dynamic quality matter most (requires 3D bbox annotations).
 - Choose **SwiftVGGT** when VGGT-style large-scene runtime is the primary bottleneck.
 - Choose **OVGGT** when long-horizon streaming must run under fixed VRAM and stable throughput.
+- Choose **PanoVGGT** when the input is panoramic (360-degree equirectangular) and unified feed-forward pose/depth/point prediction is required.
 - Use **3DGUT/3DGRT** as complementary routes for camera-model flexibility vs tracing-based effects.
 
 ### 中文版本
@@ -53,6 +57,7 @@ This page summarizes method-level tradeoffs across currently imported neural-ren
 - **DGGT**：适合“无位姿输入 + 前馈式动态重建”任务。
 - **SwiftVGGT**：适合“VGGT 大规模场景重建提速”任务。
 - **OVGGT**：适合“固定显存预算下的长序列流式重建”任务。
+- **PanoVGGT**：适合“全景输入下的前馈式位姿-深度-点云联合重建”任务。
 - **3DGUT/3DGRT**：分别代表“保持栅格效率的相机泛化”与“光追式高级效果”两条路线。
 - **gsplat**：属于工程基础设施层，不是单一场景方法。
 
@@ -64,5 +69,6 @@ This page summarizes method-level tradeoffs across currently imported neural-ren
 - [[PointForward]]
 - [[SwiftVGGT]]
 - [[OVGGT]]
+- [[PanoVGGT]]
 - [[WorldForge]]
 - [[gsplat]]
