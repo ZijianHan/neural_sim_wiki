@@ -1,6 +1,6 @@
 ---
 tags: [index, navigation]
-last_compiled: 2026-05-14
+last_compiled: 2026-05-15
 sources:
   - "sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md"
   - "sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"

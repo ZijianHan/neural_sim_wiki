@@ -23,6 +23,13 @@
 - Updated `Index.md`, `Neural Rendering.md`, and `Simulation Technologies for Autonomous Driving.md` to include SwiftVGGT and comparison links.
 - Updated source metadata to include `arXiv-2511.18290` where relevant.
 
+## [2026-05-15 08:10] structure | Project folder reorganization
+- Restructured `sources/projects/` from flat files to per-project folders with `execution/` subdirs.
+- Pattern: `sources/projects/<ProjectName>/<ProjectName>.md` + `sources/projects/<ProjectName>/execution/`.
+- Added DGGT execution documentation (architecture analysis, dataset workflow, execution strategy, hardware requirements, inference guide, progress log, QA summary).
+- Created `.github/instructions/project-structure.instructions.md` to codify the convention.
+- Updated all cross-references in wiki and paper source files.
+
 ## [2026-05-14 22:48] ingest+wiki-update | OVGGT
 - Added paper summary: `sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md`.
 - Added method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT.md`.
