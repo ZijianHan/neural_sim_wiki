@@ -12,9 +12,13 @@
 
 ## 2. 目录规范
 - `/sources/`: 存放原始资料（PDF转义、网页剪藏、原始笔记）。你是读者。
+- `/sources/inbox/`: 未处理的原始素材暂存区。**在执行 wiki 编译或 "Process New Sources" 时必须跳过此目录。** 仅当用户明确要求处理某个 inbox 条目时才可读取。
+- `/sources/papers/`: 已处理的论文摘要（格式见 `.github/instructions/paper-summary.instructions.md`）。
+- `/sources/projects/`: 按项目组织的文件夹（格式见 `.github/instructions/project-structure.instructions.md`）。
 - `/wiki/`: 存放正式百科页面。你是唯一的编辑。
 - `/wiki/Index.md`: 整个知识库的导航图谱。It's a catalog of everything in the wiki — each page listed with a link, a one-line summary, and optionally metadata like date or source count. Organized by category (entities, concepts, sources, etc.). The LLM updates it on every ingest. When answering a query, the LLM reads the index first to find relevant pages, then drills into them. 
 - `/wiki/log.md`: 按时间顺序记录所有操作的日志文件。It's an append-only record of what happened and when — ingests, queries, lint passes. A useful tip: if each entry starts with a consistent prefix (e.g. ## [2026-04-02] ingest | Article Title), the log becomes parseable with simple unix tools — grep "^## \[" log.md | tail -5 gives you the last 5 entries. The log gives you a timeline of the wiki's evolution and helps the LLM understand what's been done recently.
+- `/wiki/QA/`: 按话题组织的问答文档。
 
 ## 3. 文件格式标准 (Schema)
 所有 Wiki 页面必须包含：
@@ -30,7 +34,7 @@
 
 ## 4. 交互指令集 (Trigger Phrases)
 当你收到以下指令时，按对应逻辑执行：
-- **"Process New Sources"**: 扫描 `sources/` 中 `last_compiled` 之后的全部新文件，更新或创建对应的 Wiki 页面。
+- **"Process New Sources"**: 扫描 `sources/` 中 `last_compiled` 之后的全部新文件（**排除 `sources/inbox/`**），更新或创建对应的 Wiki 页面。
 - **"Refactor Wiki"**: 检查 `wiki/` 文件夹，合并语义重复的页面，修复断掉的 `[[Link]]`。
 - **"Deep Dive [Topic]"**: 针对特定话题，跨文件整合所有相关片段，形成一篇综述。
 

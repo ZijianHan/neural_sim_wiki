@@ -27,6 +27,11 @@
 - Added paper summary: `sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md`.
 - Added method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT.md`.
 - Merged OVGGT into `Neural Rendering.md`, `Method Comparison.md`, `Simulation Technologies for Autonomous Driving.md`, and `Index.md`.
+## [2026-05-15 08:32] structure | Inbox folder and agent instructions
+- Created `sources/inbox/` as a holding area for unprocessed material.
+- Added `.github/instructions/inbox.instructions.md` — inbox is excluded from wiki compilation.
+- Created top-level `AGENTS.md` summarizing all agent operating rules.
+
 ## [2026-05-15 08:29] wiki-update | QA folder and template
 - Created `wiki/QA/` folder for per-topic Q&A documents.
 - Added `wiki/QA/QA-Template.md` as the standard template.
