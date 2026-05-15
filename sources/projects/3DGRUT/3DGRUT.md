@@ -6,6 +6,10 @@ project_pages:
   - https://research.nvidia.com/labs/toronto-ai/3DGUT
 Imported At: 2026-05-14
 category: Gaussian Splatting
+tags: [gaussian-splatting, ray-tracing, unscented-transform, real-time-rendering]
+related_papers:
+  - "sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md"
+  - "sources/papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md"
 ---
 
 # 3DGRUT Project Summary

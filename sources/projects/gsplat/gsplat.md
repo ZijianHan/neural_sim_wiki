@@ -4,6 +4,9 @@ source: https://github.com/nerfstudio-project/gsplat
 website: http://www.gsplat.studio/
 Imported At: 2026-05-14
 category: Gaussian Splatting
+tags: [gaussian-splatting, rasterization, infrastructure, real-time-rendering]
+related_papers:
+  - "sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md"
 ---
 
 # gsplat Project Summary

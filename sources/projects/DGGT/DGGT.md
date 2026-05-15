@@ -4,6 +4,9 @@ source: https://github.com/xiaomi-research/dggt
 project_page: https://xiaomi-research.github.io/dggt/
 Imported At: 2026-05-14
 category: Autonomous Driving
+tags: [gaussian-splatting, 4d-reconstruction, feedforward, pose-free, autonomous-driving]
+related_papers:
+  - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
 ---
 
 # DGGT Project Summary
