@@ -1,7 +1,7 @@
 ---
 tags: [gsplat, infrastructure, gaussian-splatting]
 last_compiled: 2026-05-14
-sources: ["sources/projects/gsplat.md"]
+sources: ["sources/projects/gsplat/gsplat.md"]
 ---
 
 # gsplat

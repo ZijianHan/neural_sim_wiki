@@ -8,7 +8,7 @@ journal: ACM Transactions on Graphics 42(4), 2023
 date: 2023-08-08
 Imported At: 2026-05-14
 category: Gaussian Splatting
-related_project: sources/projects/gsplat.md
+related_project: sources/projects/gsplat/gsplat.md
 ---
 
 # 3D Gaussian Splatting for Real-Time Rendering of Radiance Fields

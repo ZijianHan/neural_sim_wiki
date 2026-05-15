@@ -3,7 +3,7 @@ tags: [splatad, autonomous-driving, lidar, gaussian-splatting]
 last_compiled: 2026-05-14
 sources:
   - "sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"
-  - "sources/projects/SplatAD.md"
+  - "sources/projects/SplatAD/SplatAD.md"
 ---
 
 # SplatAD

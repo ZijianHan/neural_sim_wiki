@@ -8,7 +8,7 @@ code: https://github.com/xiaomi-research/dggt
 date: 2025-12-02
 Imported At: 2026-05-14
 category: Autonomous Driving
-related_project: sources/projects/DGGT.md
+related_project: sources/projects/DGGT/DGGT.md
 ---
 
 # DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images

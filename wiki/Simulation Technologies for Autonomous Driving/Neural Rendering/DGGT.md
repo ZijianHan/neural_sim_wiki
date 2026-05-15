@@ -3,7 +3,7 @@ tags: [dggt, autonomous-driving, feedforward, 4d-reconstruction]
 last_compiled: 2026-05-14
 sources:
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
-  - "sources/projects/DGGT.md"
+  - "sources/projects/DGGT/DGGT.md"
 ---
 
 # DGGT
@@ -19,8 +19,22 @@ DGGT is a pose-free feedforward framework for reconstructing dynamic driving sce
 - Applies diffusion-based refinement to reduce ghosting/disocclusion artifacts.
 - Targets scalable reconstruction without per-scene optimization.
 
+### Limitations
+- The paper does not provide a dedicated standalone "Limitations" section; current limits are inferred from method/experiment discussions.
+- Interpolation quality is sensitive to motion estimation errors; ghosting and disocclusion artifacts can appear before refinement.
+- The pipeline relies on a post-render diffusion refinement stage for best visual quality under sparse/complex motion.
+- Zero-shot transfer is strong but not gap-free; in-domain training still improves results on target datasets.
+- Practical deployment depends on multiple external checkpoints/data pipelines, increasing engineering complexity.
+
 ### 中文版本
 DGGT 的核心在于“无位姿 + 前馈式”动态 4D 重建：从 unposed 图像直接输出位姿、场景高斯表示和动态信息，并通过 lifespan/motion 与 diffusion 细化提升时序一致性与渲染质量。
+
+### 局限性（中文）
+- 论文未单独设置完整的 “Limitations” 章节，现有结论主要来自方法与实验描述。
+- 插帧结果对运动估计误差较敏感，细化前可能出现 ghosting 与遮挡空洞。
+- 在稀疏输入或复杂运动场景下，最终质量较依赖 diffusion 细化模块。
+- 零样本跨域表现较强但并非无差距，目标域训练通常还能继续提升指标。
+- 工程落地依赖多种外部权重与数据处理链路，系统复杂度较高。
 
 ## Graph Connections
 - [[Neural Rendering]]

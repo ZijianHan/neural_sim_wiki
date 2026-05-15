@@ -19,7 +19,7 @@ category: Gaussian Splatting
 5. Active feature evolution (e.g., arbitrary batching, 3DGUT integration, PPISP integration).
 
 ## Linked foundational paper
-- [[../papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md|3D Gaussian Splatting (arXiv:2308.04079)]]
+- [[../../papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md|3D Gaussian Splatting (arXiv:2308.04079)]]
 
 ## Notes on scope
 - `gsplat` is a library/tooling project rather than one single scene method paper.
@@ -45,7 +45,7 @@ category: Gaussian Splatting
 5. 持续集成新能力（任意批处理、3DGUT、PPISP 等）。
 
 ## 关联基础论文
-- [[../papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md|3D Gaussian Splatting（arXiv:2308.04079）]]
+- [[../../papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md|3D Gaussian Splatting（arXiv:2308.04079）]]
 
 ## 范围说明
 - `gsplat` 属于库/基础设施项目，不等同于单一场景方法论文。

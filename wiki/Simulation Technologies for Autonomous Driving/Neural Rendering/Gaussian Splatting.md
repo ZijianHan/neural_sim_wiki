@@ -8,10 +8,10 @@ sources:
   - "sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM.md"
   - "sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
-  - "sources/projects/gsplat.md"
-  - "sources/projects/3DGRUT.md"
-  - "sources/projects/SplatAD.md"
-  - "sources/projects/DGGT.md"
+  - "sources/projects/gsplat/gsplat.md"
+  - "sources/projects/3DGRUT/3DGRUT.md"
+  - "sources/projects/SplatAD/SplatAD.md"
+  - "sources/projects/DGGT/DGGT.md"
 ---
 
 # Gaussian Splatting

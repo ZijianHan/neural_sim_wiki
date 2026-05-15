@@ -8,7 +8,7 @@ code: https://github.com/nv-tlabs/3dgrut
 date: 2025-03-24
 Imported At: 2026-05-14
 category: Gaussian Splatting
-related_project: sources/projects/3DGRUT.md
+related_project: sources/projects/3DGRUT/3DGRUT.md
 ---
 
 # 3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting

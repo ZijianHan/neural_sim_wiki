@@ -19,7 +19,7 @@ The `xiaomi-research/dggt` repository is the official implementation of DGGT, a 
 5. Optional diffusion-based rendered-image refinement path.
 
 ## Linked paper
-- [[../papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md|DGGT (arXiv:2512.03004)]]
+- [[../../papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md|DGGT (arXiv:2512.03004)]]
 
 ## New papers discovered from project scan
 - No additional distinct paper beyond DGGT was listed in the repository README.
@@ -43,7 +43,7 @@ The `xiaomi-research/dggt` repository is the official implementation of DGGT, a 
 5. 提供可选 diffusion 渲染结果优化。
 
 ## 关联论文
-- [[../papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md|DGGT（arXiv:2512.03004）]]
+- [[../../papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md|DGGT（arXiv:2512.03004）]]
 
 ## 本次扫描新增论文
 - 仓库 README 未列出除 DGGT 之外的独立新增论文条目。

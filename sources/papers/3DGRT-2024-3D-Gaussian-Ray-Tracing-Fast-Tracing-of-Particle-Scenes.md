@@ -7,7 +7,7 @@ venue: SIGGRAPH Asia 2024 (Journal Track, ACM TOG)
 date: 2024
 Imported At: 2026-05-14
 category: Gaussian Splatting
-related_project: sources/projects/3DGRUT.md
+related_project: sources/projects/3DGRUT/3DGRUT.md
 ---
 
 # 3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes

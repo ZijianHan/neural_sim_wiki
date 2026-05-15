@@ -20,8 +20,8 @@ The **3DGRUT** repository is NVIDIA T-Labs’ unified codebase for two related r
 4. **Engineering stack**: training/eval scripts, GUI/playground tooling, multi-platform setup, and production-oriented export paths (e.g., USDZ).
 
 ## Linked papers
-- [[../papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md|3DGRT (SIGGRAPH Asia 2024)]]
-- [[../papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md|3DGUT (CVPR 2025)]]
+- [[../../papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md|3DGRT (SIGGRAPH Asia 2024)]]
+- [[../../papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md|3DGUT (CVPR 2025)]]
 
 ## What’s new from the project scan
 - New (previously missing in your `sources/papers`): **3DGRT: 3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes**.
@@ -46,8 +46,8 @@ The **3DGRUT** repository is NVIDIA T-Labs’ unified codebase for two related r
 4. **工程化能力**：训练评测脚本、交互式 GUI、多平台安装与导出流程。
 
 ## 关联论文
-- [[../papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md|3DGRT（SIGGRAPH Asia 2024）]]
-- [[../papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md|3DGUT（CVPR 2025）]]
+- [[../../papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md|3DGRT（SIGGRAPH Asia 2024）]]
+- [[../../papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md|3DGUT（CVPR 2025）]]
 
 ## 本次新增发现
 - 你当前 `sources/papers` 中之前缺少：**3DGRT（SIGGRAPH Asia 2024）**，已补充总结。

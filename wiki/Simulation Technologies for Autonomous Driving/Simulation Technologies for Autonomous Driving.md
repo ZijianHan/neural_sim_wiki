@@ -7,6 +7,8 @@ sources:
   - "sources/papers/arXiv-2509.15130-Taming-Video-Models-for-3D-and-4D-Generation-via-Zero-Shot-Camera-Control.md"
   - "sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md"
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
+  - "sources/papers/arXiv-2511.18290-SwiftVGGT-A-Scalable-Visual-Geometry-Grounded-Transformer-for-Large-Scale-Scenes.md"
+  - "sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md"
 ---
 
 # Simulation Technologies for Autonomous Driving
@@ -24,6 +26,7 @@ Current imported sources cluster into:
 2. **Sensor-realistic simulation methods** (e.g., camera+lidar rendering in AD scenes).
 3. **Control-oriented generative methods** (trajectory-conditioned world-model generation).
 4. **Feedforward reconstruction methods** (pose-free dynamic reconstruction from sparse unposed inputs).
+5. **VGGT efficiency methods** (large-scale acceleration and fixed-budget long-horizon streaming).
 
 ### 中文版本
 当前已导入来源可归纳为三类：
@@ -31,6 +34,7 @@ Current imported sources cluster into:
 2. **传感器真实感仿真方法**（如相机+雷达联合渲染）；
 3. **控制导向生成方法**（轨迹约束的 world model 生成）。
 4. **前馈重建方法**（从稀疏 unposed 输入直接重建动态场景）。
+5. **VGGT 效率方法**（覆盖大规模提速与固定预算长序列流式重建）。
 
 ### Key Questions
 - What problem does this simulation stack solve?
@@ -46,3 +50,5 @@ Current imported sources cluster into:
 - [[Sensor Modelling]]
 - [[World Model]]
 - [[DGGT]]
+- [[SwiftVGGT]]
+- [[OVGGT]]

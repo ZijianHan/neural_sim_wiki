@@ -19,7 +19,7 @@ The `carlinds/splatad` repository is the official codebase for the CVPR 2025 Spl
 5. Built on `gsplat`, with inspiration from `3dgs-deblur`.
 
 ## Linked paper
-- [[../papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md|SplatAD (arXiv:2411.16816)]]
+- [[../../papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md|SplatAD (arXiv:2411.16816)]]
 
 ## New papers discovered from project scan
 - No additional distinct paper beyond SplatAD was listed in the repository README.
@@ -44,7 +44,7 @@ The `carlinds/splatad` repository is the official codebase for the CVPR 2025 Spl
 5. 基于 `gsplat` 构建，并参考 `3dgs-deblur` 思路。
 
 ## 关联论文
-- [[../papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md|SplatAD（arXiv:2411.16816）]]
+- [[../../papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md|SplatAD（arXiv:2411.16816）]]
 
 ## 本次扫描新增论文
 - 仓库 README 中未发现除 SplatAD 之外的独立新增论文条目。

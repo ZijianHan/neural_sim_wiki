@@ -7,12 +7,14 @@ sources:
   - "sources/papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md"
   - "sources/papers/arXiv-2509.15130-Taming-Video-Models-for-3D-and-4D-Generation-via-Zero-Shot-Camera-Control.md"
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
+  - "sources/papers/arXiv-2511.18290-SwiftVGGT-A-Scalable-Visual-Geometry-Grounded-Transformer-for-Large-Scale-Scenes.md"
+  - "sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md"
   - "sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM.md"
   - "sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md"
-  - "sources/projects/gsplat.md"
-  - "sources/projects/SplatAD.md"
-  - "sources/projects/3DGRUT.md"
-  - "sources/projects/DGGT.md"
+  - "sources/projects/gsplat/gsplat.md"
+  - "sources/projects/SplatAD/SplatAD.md"
+  - "sources/projects/3DGRUT/3DGRUT.md"
+  - "sources/projects/DGGT/DGGT.md"
 ---
 
 # Wiki Index
@@ -32,7 +34,10 @@ sources:
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/Flow4DGS-SLAM|Flow4DGS-SLAM]] — optical-flow-guided dynamic 4DGS SLAM.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/SplatAD|SplatAD]] — real-time camera+lidar rendering for AD.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/DGGT|DGGT]] — pose-free feedforward 4D reconstruction from unposed images.
+- [[Simulation Technologies for Autonomous Driving/Neural Rendering/SwiftVGGT|SwiftVGGT]] — training-free acceleration strategy for VGGT-based kilometer-scale dense reconstruction.
+- [[Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT|OVGGT]] — fixed-budget streaming extension for VGGT-style long-horizon 3D reconstruction.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/gsplat|gsplat]] — infrastructure library node for efficient Gaussian rasterization.
+- [[Simulation Technologies for Autonomous Driving/Neural Rendering/Method Comparison|Method Comparison]] — side-by-side comparison of currently imported methods and tradeoffs.
 
 ## Category: Sensor Modelling
 - [[Simulation Technologies for Autonomous Driving/Sensor Modelling/Sensor Modelling|Sensor Modelling]] — modality-specific sensor realism framework.

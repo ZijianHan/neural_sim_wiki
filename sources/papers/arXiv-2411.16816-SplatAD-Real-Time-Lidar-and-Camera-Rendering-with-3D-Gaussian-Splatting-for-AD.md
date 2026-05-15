@@ -8,7 +8,7 @@ code: https://github.com/carlinds/splatad
 date: 2025-03-13
 Imported At: 2026-05-14
 category: Autonomous Driving
-related_project: sources/projects/SplatAD.md
+related_project: sources/projects/SplatAD/SplatAD.md
 ---
 
 # SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving
