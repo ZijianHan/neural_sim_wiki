@@ -48,6 +48,7 @@ sources:
 
 ## Category: Q&A
 - [[QA/QA-Template|QA Template]] — per-topic Q&A template for knowledge-space conversations.
+- [[QA/DGGT-vs-PointForward|DGGT vs PointForward]] — architectural differences, tradeoffs, and deployment guidance.
 
 ## Category: Operations
 - [[log|log]] — append-only timeline of ingest/refactor/update operations.

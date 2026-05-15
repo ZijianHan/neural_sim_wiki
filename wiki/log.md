@@ -27,6 +27,11 @@
 - Added paper summary: `sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md`.
 - Added method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT.md`.
 - Merged OVGGT into `Neural Rendering.md`, `Method Comparison.md`, `Simulation Technologies for Autonomous Driving.md`, and `Index.md`.
+## [2026-05-15 11:46] qa | DGGT vs PointForward analysis
+- Created `wiki/QA/DGGT-vs-PointForward.md` with 5 Q&A entries covering:
+  architectural differences, layering artifact analysis, dynamic modeling comparison,
+  deployment guidance, and performance comparison.
+
 ## [2026-05-15 11:38] ingest+wiki-update | PointForward
 - Added paper summary: `sources/papers/arXiv-2605.11594-PointForward-Feedforward-Driving-Reconstruction-through-Point-Aligned-Representations.md`.
 - No code repo available yet (paper states "upon publication").
