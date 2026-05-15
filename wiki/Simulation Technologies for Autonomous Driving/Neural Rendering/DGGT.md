@@ -1,10 +1,6 @@
 ---
 tags: [dggt, gaussian-splatting, autonomous-driving, feedforward, 4d-reconstruction]
 last_compiled: 2026-05-15
-sources:
-  - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
-  - "sources/projects/DGGT/DGGT.md"
-  - "sources/projects/DGGT/execution/"
 ---
 
 # DGGT
@@ -59,3 +55,8 @@ DGGT 已进行本地实施，执行文档涵盖：架构分析、分阶段执行
 - [[Simulation Technologies for Autonomous Driving]]
 - [[SplatAD]]
 - [[Flow4DGS-SLAM]]
+
+## Sources
+- [[sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images]]
+- [[sources/projects/DGGT/DGGT]]
+- [[sources/projects/DGGT/execution/]]

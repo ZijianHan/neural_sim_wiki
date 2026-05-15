@@ -1,8 +1,8 @@
 ---
 title: 3D Gaussian Ray Tracing Fast Tracing of Particle Scenes
 source: https://research.nvidia.com/labs/toronto-ai/3DGRT
-paper_pdf: https://research.nvidia.com/labs/toronto-ai/3DGRT/res/3dgrt_compressed.pdf
-repo: https://github.com/nv-tlabs/3dgrut
+pdf: https://research.nvidia.com/labs/toronto-ai/3DGRT/res/3dgrt_compressed.pdf
+code: https://github.com/nv-tlabs/3dgrut
 venue: SIGGRAPH Asia 2024 (Journal Track, ACM TOG)
 date: 2024
 Imported At: 2026-05-14

@@ -1,7 +1,6 @@
 ---
 tags: [lidar, sensor-modelling]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"]
 ---
 
 # Lidar
@@ -32,3 +31,6 @@ Lidar is a core modality in autonomous-driving stacks because it directly observ
 - [[Sensor Modelling]]
 - [[Simulation Technologies for Autonomous Driving]]
 - [[SplatAD]]
+
+## Sources
+- [[sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD]]

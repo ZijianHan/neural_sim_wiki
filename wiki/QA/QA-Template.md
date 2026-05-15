@@ -2,7 +2,6 @@
 tags: [qa, template]
 last_compiled: 2026-05-15
 topic: "<TOPIC>"
-sources: []
 ---
 
 # Q&A: <TOPIC>

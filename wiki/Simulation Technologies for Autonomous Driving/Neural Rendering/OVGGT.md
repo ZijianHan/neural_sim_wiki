@@ -1,7 +1,6 @@
 ---
 tags: [ovggt, streaming, vggt, geometric-foundation-model]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md"]
 ---
 
 # OVGGT
@@ -24,3 +23,6 @@ OVGGT 的核心是“常数资源流式重建”：通过 SSC 控制缓存预算
 - [[SwiftVGGT]]
 - [[Method Comparison]]
 - [[Simulation Technologies for Autonomous Driving]]
+
+## Sources
+- [[sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer]]

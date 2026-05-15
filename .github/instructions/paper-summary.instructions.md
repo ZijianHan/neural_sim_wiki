@@ -6,6 +6,34 @@ applyTo: "sources/papers/*.md"
 
 Use this structure for every paper summary in `sources/papers/`:
 
+## Required YAML Frontmatter
+
+Every paper file **must** begin with YAML frontmatter containing these fields:
+
+```yaml
+---
+title: "Paper Title"
+arxiv_id: XXXX.XXXXXvN          # omit if not on arXiv
+source: https://arxiv.org/abs/... # canonical URL (arXiv or project page)
+pdf: https://arxiv.org/pdf/...    # direct PDF link
+project: https://...              # project page (omit if none)
+code: https://github.com/...      # code repo (omit if none)
+venue: "Conference/Journal Year"  # omit if preprint-only
+date: YYYY-MM-DD                  # publication or upload date
+Imported At: YYYY-MM-DD           # date added to this wiki
+category: Main Topic              # e.g. Gaussian Splatting, World Model, Feed-Forward 3D Reconstruction
+tags: [tag1, tag2]                # optional additional tags
+related_project: sources/projects/X/X.md  # omit if no local project folder
+---
+```
+
+**Canonical field names** (do NOT use alternatives):
+- `pdf` (not `paper_pdf`)
+- `code` (not `repo`)
+- `venue` (not `journal`)
+
+After frontmatter, the file starts with `# Paper Title` heading.
+
 ## Required English sections
 1. `## One-paragraph summary`
 2. `## Key ideas`

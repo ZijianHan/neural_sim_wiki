@@ -1,3 +1,27 @@
+## [2026-05-15 16:39] wiki-update | Created 10 missing topic pages
+- Created wiki pages for all recently ingested methods:
+  - `VGGT-Omega.md`, `TurboVGGT.md`, `EponaV2.md`, `Real2Sim.md`, `SANA-WM.md`
+  - `Coding Agent World Simulator.md`, `BlitzGS.md`, `AV1-3DGS.md`, `3D Skew-Normal Splatting.md`, `PDI-Bench.md`
+- All pages include Definition, Synthesis, Chinese version, and Graph Connections.
+- Restructured Index.md Neural Rendering section into subgroups: Gaussian Splatting Methods, AD-Specific Reconstruction, VGGT Lineage, World Models.
+
+## [2026-05-15 16:17] ingest | arXiv inbox batch (10 papers)
+- Processed `sources/inbox/arxiv_report_2026-05-15_140722.md` (50 papers total, 10 high-relevance extracted).
+- Created paper summaries:
+  - `arXiv-2605.15195-VGGT-Omega-Scaling-Feed-Forward-Reconstruction.md` (VGGT-Ω)
+  - `arXiv-2605.14315-TurboVGGT-Fast-Visual-Geometry-Reconstruction-with-Adaptive-Alternating-Attention.md`
+  - `arXiv-2605.14696-EponaV2-Driving-World-Model-with-Comprehensive-Future-Reasoning.md`
+  - `arXiv-2605.13591-Real2Sim-Physics-driven-Editable-Gaussian-Splatting-for-AD.md`
+  - `arXiv-2605.15178-SANA-WM-Efficient-Minute-Scale-World-Modeling.md`
+  - `arXiv-2605.14398-Coding-Agent-Is-Good-As-World-Simulator.md`
+  - `arXiv-2605.13794-BlitzGS-City-Scale-Gaussian-Splatting-at-Lightning-Speed.md`
+  - `arXiv-2605.14629-AV1-Motion-Vectors-for-Enhanced-Gaussian-Splatting.md`
+  - `arXiv-2605.15010-3D-Skew-Normal-Splatting.md`
+  - `arXiv-2605.15185-PDI-Bench-Geometric-Consistency-Evaluation-for-Video-World-Models.md`
+- Updated wiki pages: `Gaussian Splatting.md` (added routes 5-6), `World Model.md` (expanded to 4-route taxonomy + evaluation).
+- Updated `Index.md` with 10 new entries.
+- Deleted processed inbox file.
+
 ## [2026-05-14 21:27] ingest | DGGT paper + project
 - Added paper summary: `sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md`.
 - Added project summary: `sources/projects/DGGT/DGGT.md`.

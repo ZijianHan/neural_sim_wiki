@@ -1,9 +1,6 @@
 ---
 tags: [panovggt, panoramic-reconstruction, feedforward, vggt, transformer]
 last_compiled: 2026-05-15
-sources:
-  - "sources/papers/arXiv-2603.17571-PanoVGGT-Feed-Forward-3D-Reconstruction-from-Panoramic-Imagery.md"
-  - "sources/projects/PanoVGGT/PanoVGGT.md"
 ---
 
 # PanoVGGT
@@ -38,3 +35,7 @@ PanoVGGT 是一个面向全景图像的前馈式置换等变 Transformer，可�
 - [[Simulation Technologies for Autonomous Driving]]
 - [[OVGGT]]
 - [[SwiftVGGT]]
+
+## Sources
+- [[sources/papers/arXiv-2603.17571-PanoVGGT-Feed-Forward-3D-Reconstruction-from-Panoramic-Imagery]]
+- [[sources/projects/PanoVGGT/PanoVGGT]]

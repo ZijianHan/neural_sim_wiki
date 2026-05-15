@@ -1,7 +1,6 @@
 ---
 tags: [swiftvggt, large-scale-reconstruction, vggt]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2511.18290-SwiftVGGT-A-Scalable-Visual-Geometry-Grounded-Transformer-for-Large-Scale-Scenes.md"]
 ---
 
 # SwiftVGGT
@@ -24,3 +23,6 @@ SwiftVGGT 的核心是“免训练提速”：通过替换 IRLS 对齐与外部 
 - [[DGGT]]
 - [[Method Comparison]]
 - [[Simulation Technologies for Autonomous Driving]]
+
+## Sources
+- [[sources/papers/arXiv-2511.18290-SwiftVGGT-A-Scalable-Visual-Geometry-Grounded-Transformer-for-Large-Scale-Scenes]]

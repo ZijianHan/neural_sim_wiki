@@ -1,7 +1,6 @@
 ---
 tags: [3dgut, gaussian-splatting, neural-rendering]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform.md"]
 ---
 
 # 3DGUT
@@ -25,3 +24,6 @@ sources: ["sources/papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform
 - [[Gaussian Splatting]]
 - [[3DGRT]]
 - [[gsplat]]
+
+## Sources
+- [[sources/papers/arXiv-2412.12507-3DGUT-3D-Gaussian-Unscented-Transform]]

@@ -1,7 +1,6 @@
 ---
 tags: [template, sensor-modelling]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"]
 ---
 
 # Sensor Modelling
@@ -34,3 +33,6 @@ SplatAD adds evidence that practical sensor modeling for autonomous-driving simu
 - [[Simulation Technologies for Autonomous Driving]]
 - [[Radar]]
 - [[Lidar]]
+
+## Sources
+- [[sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD]]

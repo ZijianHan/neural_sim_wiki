@@ -26,15 +26,15 @@
    ---
    tags: []
    last_compiled: YYYY-MM-DD
-   sources: [] # 关联的原始文件名
    ---
 2. **Definition**: 用一句话对概念进行高度概括。
 3. **Synthesis**: 核心内容，使用分级标题（##, ###）。
 4. **Graph Connections**: 必须包含 `[[Wiki Link]]`。如果引用的概念尚不存在，请创建占位符文件。
+5. **Sources**: 必须包含 `## Sources` 部分，使用 `[[path]]` wiki-link 格式列出所有关联的源文件（不含 `.md` 后缀），使 Obsidian 中可以直接点击跳转到源文件。注意：不再在 frontmatter 中使用 `sources:` 字段，所有源文件引用统一放在页面底部的 `## Sources` 部分。
 
 ## 4. 交互指令集 (Trigger Phrases)
 当你收到以下指令时，按对应逻辑执行：
-- **"Process New Sources"**: 扫描 `sources/` 中 `last_compiled` 之后的全部新文件（**排除 `sources/inbox/`**），更新或创建对应的 Wiki 页面。
+- **"Process New Sources"**: 扫描 `sources/` 中 `last_compiled` 之后的全部新文件（**排除 `sources/inbox/`**），更新或创建对应的 Wiki 页面。**每当新增一个可识别的方法（method）时，必须同步更新 Method Comparison 页面**（`wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/Method Comparison.md`），保持对比表与最新方法同步。
 - **"Refactor Wiki"**: 检查 `wiki/` 文件夹，合并语义重复的页面，修复断掉的 `[[Link]]`。
 - **"Deep Dive [Topic]"**: 针对特定话题，跨文件整合所有相关片段，形成一篇综述。
 

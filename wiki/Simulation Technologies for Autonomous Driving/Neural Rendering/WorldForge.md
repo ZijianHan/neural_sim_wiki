@@ -1,7 +1,6 @@
 ---
 tags: [worldforge, world-model, neural-rendering]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2509.15130-Taming-Video-Models-for-3D-and-4D-Generation-via-Zero-Shot-Camera-Control.md"]
 ---
 
 # WorldForge
@@ -43,3 +42,6 @@ WorldForge 由三个模块组成：
 - [[World Model]]
 - [[Neural Rendering]]
 - [[Simulation Technologies for Autonomous Driving]]
+
+## Sources
+- [[sources/papers/arXiv-2509.15130-Taming-Video-Models-for-3D-and-4D-Generation-via-Zero-Shot-Camera-Control]]

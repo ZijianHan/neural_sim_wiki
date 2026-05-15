@@ -1,9 +1,6 @@
 ---
 tags: [splatad, autonomous-driving, lidar, gaussian-splatting]
 last_compiled: 2026-05-14
-sources:
-  - "sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"
-  - "sources/projects/SplatAD/SplatAD.md"
 ---
 
 # SplatAD
@@ -26,3 +23,7 @@ SplatAD 的核心价值在于将相机与雷达统一到同一 3DGS 表示中，
 - [[Neural Rendering]]
 - [[Lidar]]
 - [[Sensor Modelling]]
+
+## Sources
+- [[sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD]]
+- [[sources/projects/SplatAD/SplatAD]]

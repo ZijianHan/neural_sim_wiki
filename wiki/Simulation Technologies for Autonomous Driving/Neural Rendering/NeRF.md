@@ -1,7 +1,6 @@
 ---
 tags: [template, nerf, neural-rendering]
 last_compiled: 2026-05-14
-sources: []
 ---
 
 # NeRF

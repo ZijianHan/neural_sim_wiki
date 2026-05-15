@@ -1,7 +1,6 @@
 ---
 tags: [3dgs, gaussian-splatting, neural-rendering]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields.md"]
 ---
 
 # 3DGS
@@ -27,3 +26,6 @@ sources: ["sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-R
 - [[3DGUT]]
 - [[3DGRT]]
 - [[gsplat]]
+
+## Sources
+- [[sources/papers/arXiv-2308.04079-3D-Gaussian-Splatting-for-Real-Time-Rendering-of-Radiance-Fields]]

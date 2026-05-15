@@ -1,7 +1,6 @@
 ---
 tags: [template, radar, sensor-modelling]
 last_compiled: 2026-05-14
-sources: []
 ---
 
 # Radar

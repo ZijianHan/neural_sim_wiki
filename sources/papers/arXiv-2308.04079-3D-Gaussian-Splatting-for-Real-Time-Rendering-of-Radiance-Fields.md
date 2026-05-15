@@ -4,7 +4,7 @@ arxiv_id: 2308.04079v1
 source: https://arxiv.org/abs/2308.04079
 pdf: https://arxiv.org/pdf/2308.04079
 project: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
-journal: ACM Transactions on Graphics 42(4), 2023
+venue: ACM Transactions on Graphics 42(4), 2023
 date: 2023-08-08
 Imported At: 2026-05-14
 category: Gaussian Splatting

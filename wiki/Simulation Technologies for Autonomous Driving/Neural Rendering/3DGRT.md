@@ -1,7 +1,6 @@
 ---
 tags: [3dgrt, gaussian-splatting, neural-rendering]
 last_compiled: 2026-05-14
-sources: ["sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes.md"]
 ---
 
 # 3DGRT
@@ -21,3 +20,6 @@ sources: ["sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Par
 - [[3DGUT]]
 - [[Gaussian Splatting]]
 - [[gsplat]]
+
+## Sources
+- [[sources/papers/3DGRT-2024-3D-Gaussian-Ray-Tracing-Fast-Tracing-of-Particle-Scenes]]

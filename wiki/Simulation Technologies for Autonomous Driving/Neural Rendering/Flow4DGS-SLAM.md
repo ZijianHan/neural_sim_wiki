@@ -1,7 +1,6 @@
 ---
 tags: [flow4dgs-slam, gaussian-splatting, slam]
 last_compiled: 2026-05-14
-sources: ["sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM.md"]
 ---
 
 # Flow4DGS-SLAM
@@ -22,3 +21,6 @@ Flow4DGS-SLAM 强调将光流先验与动态 4D 高斯建图结合，以提升�
 - [[Gaussian Splatting]]
 - [[Neural Rendering]]
 - [[Sensor Modelling]]
+
+## Sources
+- [[sources/papers/arXiv-2604.22339-Flow4DGS-SLAM-Optical-Flow-Guided-4D-Gaussian-Splatting-SLAM]]
