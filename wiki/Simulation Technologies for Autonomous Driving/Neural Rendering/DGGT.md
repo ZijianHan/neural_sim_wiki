@@ -1,5 +1,5 @@
 ---
-tags: [dggt, autonomous-driving, feedforward, 4d-reconstruction]
+tags: [dggt, gaussian-splatting, autonomous-driving, feedforward, 4d-reconstruction]
 last_compiled: 2026-05-15
 sources:
   - "sources/papers/arXiv-2512.03004-DGGT-Feedforward-4D-Reconstruction-of-Dynamic-Driving-Scenes-using-Unposed-Images.md"
