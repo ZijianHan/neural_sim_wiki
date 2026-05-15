@@ -27,6 +27,12 @@
 - Added paper summary: `sources/papers/arXiv-2603.05959-OVGGT-O1-Constant-Cost-Streaming-Visual-Geometry-Transformer.md`.
 - Added method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/OVGGT.md`.
 - Merged OVGGT into `Neural Rendering.md`, `Method Comparison.md`, `Simulation Technologies for Autonomous Driving.md`, and `Index.md`.
+## [2026-05-15 11:38] ingest+wiki-update | PointForward
+- Added paper summary: `sources/papers/arXiv-2605.11594-PointForward-Feedforward-Driving-Reconstruction-through-Point-Aligned-Representations.md`.
+- No code repo available yet (paper states "upon publication").
+- Created wiki method page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/PointForward.md`.
+- Merged PointForward into: `Neural Rendering.md`, `Gaussian Splatting.md`, `Method Comparison.md`, `Index.md`.
+
 ## [2026-05-15 08:32] structure | Inbox folder and agent instructions
 - Created `sources/inbox/` as a holding area for unprocessed material.
 - Added `.github/instructions/inbox.instructions.md` — inbox is excluded from wiki compilation.
