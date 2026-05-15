@@ -7,7 +7,7 @@ project: https://research.zenseact.com/publications/splatad/
 code: https://github.com/carlinds/splatad
 date: 2025-03-13
 Imported At: 2026-05-14
-category: Autonomous Driving
+category: Gaussian Splatting
 related_project: sources/projects/SplatAD/SplatAD.md
 ---
 

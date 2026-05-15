@@ -3,7 +3,7 @@ title: SplatAD Project
 source: https://github.com/carlinds/splatad
 project_page: https://research.zenseact.com/publications/splatad/
 Imported At: 2026-05-14
-category: Autonomous Driving
+category: Gaussian Splatting
 tags: [gaussian-splatting, lidar, camera, real-time-rendering, autonomous-driving]
 related_papers:
   - "sources/papers/arXiv-2411.16816-SplatAD-Real-Time-Lidar-and-Camera-Rendering-with-3D-Gaussian-Splatting-for-AD.md"
