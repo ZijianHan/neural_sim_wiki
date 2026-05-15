@@ -44,5 +44,8 @@ sources:
 - [[Simulation Technologies for Autonomous Driving/Sensor Modelling/Radar|Radar]] — radar simulation scope and key modeling questions.
 - [[Simulation Technologies for Autonomous Driving/Sensor Modelling/Lidar|Lidar]] — lidar modeling factors (sparsity, intensity, ray drop, temporal effects).
 
+## Category: Q&A
+- [[QA/QA-Template|QA Template]] — per-topic Q&A template for knowledge-space conversations.
+
 ## Category: Operations
 - [[log|log]] — append-only timeline of ingest/refactor/update operations.
