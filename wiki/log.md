@@ -1,3 +1,9 @@
+## [2026-05-18] ingest | Hybrid Reconstruction Pipeline
+- Source: `sources/notes/Hybrid 3d reconstruction thoughts.md` (ChatGPT conversation summary).
+- Created new wiki page: `wiki/Simulation Technologies for Autonomous Driving/Neural Rendering/Hybrid Reconstruction Pipeline.md`.
+- Covers: feed-forward vs per-scene optimization tradeoffs, three-layer hybrid architecture, existing papers (GeSplat, HO-Gaussian, VolSplat, ConFixGS, VGD, ReconDrive), convergence trend.
+- Updated Index.md with new "Architecture & Pipeline Design" subsection.
+
 ## [2026-05-15 16:39] wiki-update | Created 10 missing topic pages
 - Created wiki pages for all recently ingested methods:
   - `VGGT-Omega.md`, `TurboVGGT.md`, `EponaV2.md`, `Real2Sim.md`, `SANA-WM.md`

@@ -2,7 +2,7 @@
 tags:
   - index
   - navigation
-last_compiled: 2026-05-15
+last_compiled: 2026-05-18
 ---
 ---
 
@@ -24,6 +24,9 @@ last_compiled: 2026-05-15
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/BlitzGS|BlitzGS]] — distributed city-scale 3DGS training in minutes via index-parity sharding.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/AV1-3DGS|AV1-3DGS]] — codec motion vectors for 8× denser SfM init and faster 3DGS training.
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/gsplat|gsplat]] — infrastructure library node for efficient Gaussian rasterization.
+
+### Architecture & Pipeline Design
+- [[Simulation Technologies for Autonomous Driving/Neural Rendering/Hybrid Reconstruction Pipeline|Hybrid Reconstruction Pipeline]] — three-layer hybrid architecture (VGGT init + per-scene refinement + sensor heads) for AD simulation.
 
 ### AD-Specific Reconstruction & Simulation
 - [[Simulation Technologies for Autonomous Driving/Neural Rendering/SplatAD|SplatAD]] — real-time camera+lidar rendering for AD.

@@ -1,6 +1,6 @@
 ---
 tags: [template, gaussian-splatting, neural-rendering]
-last_compiled: 2026-05-15
+last_compiled: 2026-05-18
 ---
 
 # Gaussian Splatting
@@ -17,6 +17,7 @@ Current sources indicate six active Gaussian-Splatting routes:
 4. **Infrastructure route**: gsplat as engineering backend for efficient Gaussian rasterization and extensions.
 5. **Primitive generalization route**: [[3D Skew-Normal Splatting]] replaces symmetric Gaussians with Azzalini Skew-Normal distributions for better boundary/thin-structure modeling.
 6. **Scalability route**: [[BlitzGS]] (city-scale distributed training in minutes via index-parity sharding), [[AV1-3DGS]] (codec motion vectors for 8× denser SfM init, 63% faster training).
+7. **Hybrid pipeline route**: [[Hybrid Reconstruction Pipeline]] — combines feed-forward initialization (VGGT) + per-scene refinement + sensor heads for AD simulation.
 
 ### Practical Comparison Axes
 - **Primary rendering mode**: rasterization vs ray tracing vs hybrid.
